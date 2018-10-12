@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "es2015",
+    "paths": {
+      "*": [
+        "*",
+        "src/"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "config"
+  ],
+  "include": [
+    "src/**/*.ts",
+  ]
+}
